@@ -1,9 +1,6 @@
 /*
-
-TemplateMo 565 Onix Digital
-
-https://templatemo.com/tm-565-onix-digital
-
+Eski rang: ff695f
+Yangi rang: 564cda
 
 ------------------------------------------------
 Table of contents
@@ -193,7 +190,7 @@ body {
 }
 
 .section-heading h2 span {
-  color: #ff695f;
+  color: #564cda;
   font-weight: 700;
   opacity: 1;
   text-transform: capitalize;
@@ -203,7 +200,7 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ff695f;
+  color: #564cda;
   opacity: 0.15;
 }
 
@@ -233,12 +230,12 @@ body {
 }
 
 .main-blue-button-hover a:hover {
-  background-color: #ff695f;
+  background-color: #564cda;
 }
 
 .main-red-button a {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #564cda;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -250,7 +247,7 @@ body {
 
 .main-red-button-hover a {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #564cda;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -270,7 +267,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #ff695f;
+  color: #564cda;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -824,7 +821,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #ff695f;
+    background: #564cda;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -847,7 +844,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #ff695f;
+    background: #564cda;
     border-radius: 50%;
 }
 
@@ -898,7 +895,7 @@ Banner Style
 .main-banner .item h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #ff695f;
+  color: #564cda;
   margin-bottom: 15px;
 }
 
@@ -915,7 +912,7 @@ Banner Style
 }
 
 .main-banner .item h2 span {
-  color: #ff695f;
+  color: #564cda;
 }
 
 .main-banner .item p {
@@ -941,7 +938,7 @@ Banner Style
 }
 
 .main-banner .item .down-buttons .call-button a {
-  color: #ff695f;
+  color: #564cda;
   font-size: 15px;
   font-weight: 500;
   margin-left: 30px;
@@ -1052,7 +1049,7 @@ Services Style
 .our-services .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #ff695f;
+  background-color: #564cda;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1106,7 +1103,7 @@ About
 
 .about-us .fact-item .count-title {
   font-size: 15px;
-  color: #ff695f;
+  color: #564cda;
 }
 
 .about-us .fact-item p {
@@ -1229,7 +1226,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-prev span:after {
   width: 46px;
   height: 46px;
-  background-color: #ff695f;
+  background-color: #564cda;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1253,7 +1250,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-next span:after {
   width: 46px;
   height: 46px;
-  background-color: #ff695f;
+  background-color: #564cda;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1273,7 +1270,7 @@ Portfolio
 .owl-portfolio .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #ff695f;
+  background-color: #564cda;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1347,7 +1344,7 @@ Pricing
 }
 
 .pricing-tables .item em {
-  color: #ff695f;
+  color: #564cda;
   font-size: 15px;
   display: block;
   margin-top: 25px;
@@ -1357,7 +1354,7 @@ Pricing
 
 .pricing-tables .item span {
   font-size: 44px;
-  color: #ff695f;
+  color: #564cda;
   font-weight: 700;
   display: block;
   margin-top: -5px;
@@ -1477,7 +1474,7 @@ Subscribe
 }
 
 .subscribe .inner-content form button:hover {
-  background-color: #ff695f;
+  background-color: #564cda;
 }
 
 
@@ -1758,7 +1755,7 @@ form#contact input::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #564cda;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1832,7 +1829,7 @@ footer .about ul li a {
 }
 
 footer .about ul li a:hover {
-  background-color: #ff695f;
+  background-color: #564cda;
 }
 
 footer .footer-item ul li {
@@ -1851,7 +1848,7 @@ footer .footer-item ul li a {
 }
 
 footer .footer-item ul li a:hover {
-  color: #ff695f;
+  color: #564cda;
 }
 
 footer .footer-item p {
@@ -1901,7 +1898,7 @@ footer .copyright p {
 }
 
 footer .copyright p a {
-  color: #ff695f;
+  color: #564cda;
 }
 
 /* 
@@ -2006,7 +2003,7 @@ responsive
   }
   .subscribe .inner-content form button {
     width: 100%;
-    background-color: #ff695f;
+    background-color: #564cda;
     margin-top: 30px;
   }
   .our-videos ul.nacc li {
