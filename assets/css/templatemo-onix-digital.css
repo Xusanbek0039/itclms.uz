@@ -1250,7 +1250,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-next span:after {
   width: 46px;
   height: 46px;
-  background-color: #564cda;
+  background-color: #1100ff;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1755,7 +1755,7 @@ form#contact input::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #564cda;
+  background-color: #1100fd;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
