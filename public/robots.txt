@@ -1,6 +1,12 @@
 User-agent: Googlebot
 Allow: /
 
+User-agent: Yandexbot
+Allow: /
+
+User-agent: YandexImages
+Allow: /
+
 User-agent: Bingbot
 Allow: /
 
@@ -10,5 +16,14 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: LinkedInBot
+Allow: /
+
 User-agent: *
 Allow: /
+
+# Sitemap location
+Sitemap: https://itclms.uz/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
