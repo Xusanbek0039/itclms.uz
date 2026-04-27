@@ -44,7 +44,7 @@ const Header = () => {
           ))}
           <ThemeToggle />
           <a
-            href="https://itc-academy.uz"
+            href="https://itc-academy.uz/ariza"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg bg-primary px-5 py-2 text-sm font-semibold text-hero-text transition-all hover:opacity-90 glow-primary"
@@ -82,7 +82,7 @@ const Header = () => {
                 </button>
               ))}
               <a
-                href="https://itc-academy.uz"
+                href="https://itc-academy.uz/ariza"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 rounded-lg bg-primary py-3 text-center text-sm font-semibold text-primary-foreground"

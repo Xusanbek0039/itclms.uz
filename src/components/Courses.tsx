@@ -83,7 +83,7 @@ const Courses = () => {
               <p className="text-sm leading-relaxed text-muted-foreground">{course.description}</p>
               <div className="mt-4">
                 <a
-                  href="https://itc-academy.uz"
+                  href="https://itc-academy.uz/ariza"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-medium text-primary transition-colors hover:text-primary/80"

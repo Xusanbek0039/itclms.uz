@@ -2,7 +2,7 @@ const SocialLinks = ({ className = "" }: { className?: string }) => {
   return (
     <div className={`flex items-center gap-4 ${className}`}>
       <a
-        href="https://t.me/itparkzomin"
+        href="https://t.me/it_creative"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Telegram"
@@ -13,7 +13,7 @@ const SocialLinks = ({ className = "" }: { className?: string }) => {
         </svg>
       </a>
       <a
-        href="https://instagram.com/itparkzomin"
+        href="https://instagram.com/it_shaxarcha_zomin"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Instagram"
@@ -24,7 +24,7 @@ const SocialLinks = ({ className = "" }: { className?: string }) => {
         </svg>
       </a>
       <a
-        href="https://youtube.com/@itparkzomin"
+        href="https://youtube.com/@it_creative"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="YouTube"

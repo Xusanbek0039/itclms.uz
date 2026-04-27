@@ -24,7 +24,7 @@ const Footer = () => {
             <a href="#about" className="text-muted-foreground transition-colors hover:text-primary">Biz haqimizda</a>
             <a href="#courses" className="text-muted-foreground transition-colors hover:text-primary">Kurslar</a>
             <a href="#contact" className="text-muted-foreground transition-colors hover:text-primary">Aloqa</a>
-            <a href="https://itc-academy.uz" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-primary">
+            <a href="https://itc-academy.uz/ariza" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-primary">
               ITC Academy
             </a>
           </div>

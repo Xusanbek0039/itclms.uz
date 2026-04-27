@@ -87,7 +87,7 @@ const Contact = () => {
             </div>
 
             <a
-              href="https://itc-academy.uz"
+              href="https://itc-academy.uz/ariza"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center gap-2 rounded-xl bg-primary px-8 py-4 text-center font-semibold text-primary-foreground transition-all hover:opacity-90 glow-primary"
