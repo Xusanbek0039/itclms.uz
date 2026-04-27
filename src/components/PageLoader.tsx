@@ -63,20 +63,8 @@ const PageLoader = () => {
           
           {/* Logo */}
           <div className="relative flex items-center gap-4 rounded-2xl bg-card/50 backdrop-blur-md border border-primary/20 p-8">
-            {/* Only the icon should spin */}
-            <motion.div
-              animate={{
-                rotate: 360,
-              }}
-              transition={{
-                duration: 3,
-                repeat: Infinity,
-                ease: "linear"
-              }}
-              className="relative"
-            >
-              <Code2 className="h-20 w-20 text-primary" />
-            </motion.div>
+            {/* Static icon */}
+            <Code2 className="h-20 w-20 text-primary" />
             
             {/* Text stays static */}
             <div className="flex flex-col">
