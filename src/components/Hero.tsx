@@ -65,7 +65,7 @@ const Hero = () => {
                 role="navigation"
               >
                 <a
-                  href="https://itc-academy.uz/ariza"
+                  href="https://itc-academy.uz/login"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 text-lg font-semibold text-hero-text transition-all hover:opacity-90 glow-primary"
