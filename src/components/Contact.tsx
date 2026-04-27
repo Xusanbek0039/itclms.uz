@@ -1,11 +1,13 @@
 import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 import SocialLinks from "./SocialLinks";
+import Loader from "./Loader";
 
 const Contact = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
+  const [mapLoading, setMapLoading] = useState(true);
 
   return (
     <section id="contact" className="section-padding bg-secondary/30" ref={ref}>
@@ -102,8 +104,14 @@ const Contact = () => {
             initial={{ opacity: 0, x: 30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="overflow-hidden rounded-2xl border border-border"
+            className="overflow-hidden rounded-2xl border border-border relative"
+            style={{ minHeight: "400px" }}
           >
+            {mapLoading && (
+              <div className="absolute inset-0 flex items-center justify-center bg-card/50 backdrop-blur-sm z-10">
+                <Loader size="xl" text="Xarita yuklanmoqda..." />
+              </div>
+            )}
             <iframe
               title="IT Park Zomin joylashuvi"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48815.42247395!2d68.3!3d39.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f524bcc8be01a39%3A0x4b4f2e16c1c10b65!2sZomin!5e0!3m2!1sen!2suz!4v1700000000000!5m2!1sen!2suz"
@@ -113,6 +121,7 @@ const Contact = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              onLoad={() => setMapLoading(false)}
             />
           </motion.div>
         </div>
